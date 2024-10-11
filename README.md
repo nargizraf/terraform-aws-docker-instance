@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<nargizraf>/docker-instance/aws"
+    source = "nargizraf/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
